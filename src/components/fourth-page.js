@@ -65,7 +65,7 @@ const FourthPage = () => {
               <div className="tw-px-5">
                 <div className="tw-flex tw-justify-center">
                   <p className="tw-text-center mobile-xs:tw-font-secondaryFonts md:tw-font-primaryFonts mobile-xs:tw-text-center mobile-xs:tw-text-smMobileSize mobile-xs:tw-font-medium tw-font-semibold lg:tw-leading-12 md:tw-text-4xl lg:tw-text-2xlDesktopSize tw-max-w-3xl">
-                    No boring courses, learn through
+                    No boring courses, learn through&nbsp;
                     <br className="lg:tw-hidden" />
                     <span className="text-interactive">
                       interactive modules

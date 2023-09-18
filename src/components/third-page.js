@@ -145,7 +145,7 @@ const ThirdPage = () => {
           <div className="">
             <div>
               <p className=" tw-max-w-lg tw-font-semibold md:tw-text-2xl lg:tw-text-2xlDesktopSize">
-                Know your{" "}
+                Know your
                 <span className="tw-text-primary tw-font-primaryFonts">
                   Journey
                 </span>
