@@ -43,7 +43,7 @@ const FourthPage = () => {
           >
             <div className="">
               <div
-                className={` project-button-next md:tw-left-20 mobile-xs:tw-left-4 tw-absolute tw-z-50 tw-cursor-pointer tw-top-1/2 tw-left-0 `}
+                className={` project-button-prev md:tw-left-20 mobile-xs:tw-left-4 tw-absolute tw-z-50 tw-cursor-pointer tw-top-1/2 tw-left-0 `}
               >
                 <img
                   src={left_button}
@@ -52,7 +52,7 @@ const FourthPage = () => {
                 />
               </div>
               <div
-                className={` project-button-prev md:tw-right-22 mobile-xs:tw-right-4   tw-absolute tw-z-50 tw-cursor-pointer tw-top-1/2`}
+                className={` project-button-next md:tw-right-22 mobile-xs:tw-right-4   tw-absolute tw-z-50 tw-cursor-pointer tw-top-1/2`}
               >
                 <img
                   src={right_button}

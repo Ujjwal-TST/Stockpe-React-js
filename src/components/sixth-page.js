@@ -52,7 +52,7 @@ const SixthPage = () => {
               Trusted by
             </p>
             <p className="tw-px-6 text-large tw-text-center tw-font-primaryFonts  tw-font-semibold ">
-              <span className="text-users-no">1.5 Lakh+&nbsp;</span>
+              <span className="text-users-no">2 Lakh+&nbsp;</span>
               users
             </p>
           </div>
@@ -205,7 +205,7 @@ const SixthPage = () => {
                     Trusted by
                   </p>
                   <p className=" lg:tw-text-xlDesktopSize tw-text-4xl md:tw-text-xl tw-font-semibold">
-                    <span className="text-users-no"> 1.5 Lakh+ </span> users
+                    <span className="text-users-no"> 2 Lakh+ </span> users
                   </p>
                 </motion.div>
                 <motion.div

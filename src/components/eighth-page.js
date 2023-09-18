@@ -38,7 +38,7 @@ const EighthPage = () => {
             <div className="tw-pt-4">
               <p className="tw-font-secondaryFonts">
                 Join the&nbsp;
-                <span className="tw-text-primary">1.5 lakh+ users </span> on
+                <span className="tw-text-primary">2 Lakh+ users </span> on
                 StockPe!
               </p>
             </div>

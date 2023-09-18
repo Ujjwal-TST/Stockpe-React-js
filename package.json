@@ -2,10 +2,12 @@
   "name": "stockpeuser",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "autoprefixer": "^10.4.15",
     "bootstrap": "^5.3.0",
     "framer-motion": "^10.12.17",
+    "homepage": ".",
     "html-react-parser": "^4.0.0",
     "postcss-cli": "^10.1.0",
     "react": "^18.2.0",
@@ -19,6 +21,7 @@
     "react-scripts": "5.0.1",
     "react-text-transition": "^3.1.0",
     "reactstrap": "^9.2.0",
+    "serve": "^14.2.1",
     "swiper": "^9.4.1",
     "tailwindcss": "^3.3.3",
     "web-vitals": "^2.1.4"
