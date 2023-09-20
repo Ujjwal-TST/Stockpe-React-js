@@ -14,9 +14,7 @@ import left_button from "../assets/left_button.svg";
 import right_button from "../assets/right_button.svg";
 
 const FourthPage = () => {
-  const settings = {
-    dots: false,
-  };
+
   return (
     <div className="tw-text-white">
       {/* <!-- Stockpe Page 4 --> */}

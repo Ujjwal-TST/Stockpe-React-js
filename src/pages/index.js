@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import EighthPage from "../components/eighth-page";
 import FifthPage from "../components/fifth-page";
 // import FirstPage from "../components/first-page";
