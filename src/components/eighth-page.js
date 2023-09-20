@@ -1,6 +1,6 @@
 // import img from "next/image";
 import { motion } from "framer-motion";
-import container from "../assets/Container.png";
+import container from "../assets/Container.avif";
 import { useInView } from "react-intersection-observer";
 // import a from "next/link";
 

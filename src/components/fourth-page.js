@@ -7,9 +7,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import caro_1 from "../assets/caro1.png";
-import caro_2 from "../assets/caro2.png";
-import caro_3 from "../assets/caro3.png";
+import caro_1 from "../assets/caro1.avif";
+import caro_2 from "../assets/caro2.avif";
+import caro_3 from "../assets/caro3.avif";
 import left_button from "../assets/left_button.svg";
 import right_button from "../assets/right_button.svg";
 
