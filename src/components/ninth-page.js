@@ -33,7 +33,6 @@ const NinthPage = () => {
               target="_blank"
               rel="noreferrer"
               className="tw-mr-5"
-
             >
               <img src={instagram} alt="stokcPe instagram" />
             </a>
@@ -43,7 +42,6 @@ const NinthPage = () => {
               target="_blank"
               rel="noreferrer"
               className="tw-mr-5"
-
             >
               <img src={linkdin} alt="stokcPe linkdin" />
             </a>
@@ -53,7 +51,6 @@ const NinthPage = () => {
               target="_blank"
               rel="noreferrer"
               className="tw-mr-5"
-
             >
               <img src={youtube} alt="stokcPe youtube" />
             </a>
@@ -62,7 +59,6 @@ const NinthPage = () => {
               target="_blank"
               rel="noreferrer"
               className="tw-mr-5"
-
             >
               <img src={twitter} alt="stokcPe twitter" />
             </a>
@@ -86,7 +82,6 @@ const NinthPage = () => {
               href="https://stockpe.in/blog/"
               target="_blank"
               className="tw-no-underline tw-font-normal tw-mt-2 tw-text-fontColor tw-text-opacity-80 tw-block"
-
             >
               Blog
             </a>
@@ -94,7 +89,6 @@ const NinthPage = () => {
               href="https://stockpe.in/blog/"
               target="_blank"
               className="tw-no-underline tw-font-normal tw-mt-2 tw-text-fontColor tw-text-opacity-80 tw-block"
-
             >
               Creators Hub
             </a>
@@ -102,7 +96,6 @@ const NinthPage = () => {
               href="https://stockpe.in/calculators/"
               target="_blank"
               className="tw-no-underline tw-font-normal tw-mt-2 tw-text-fontColor tw-text-opacity-80 tw-block"
-
             >
               Calculators
             </a>
@@ -110,7 +103,6 @@ const NinthPage = () => {
               href="#"
               target="_blank"
               className="tw-no-underline tw-font-normal tw-mt-2 tw-text-fontColor tw-text-opacity-80 tw-block"
-
             >
               Contact Us
             </a>
@@ -119,7 +111,6 @@ const NinthPage = () => {
               href="https://stockpe.app.link/Spv92VPgUyb"
               target="_blank"
               className="tw-no-underline tw-font-normal tw-text-primary tw-mt-2 tw-block"
-
             >
               Try the app out for free!
             </a>
@@ -136,7 +127,6 @@ const NinthPage = () => {
             <a
               href="mailto:support@stockpe.in"
               className="tw-mt-2 tw-block tw-font-normal tw-no-underline tw-text-fontColor tw-text-opacity-80"
-
             >
               Email Us
             </a>
@@ -198,7 +188,6 @@ const NinthPage = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="tw-mr-5"
-
                 >
                   <img src={instagram} alt="stokcPe instagram" />
                 </a>
@@ -208,7 +197,6 @@ const NinthPage = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="tw-mr-5"
-
                 >
                   <img src={linkdin} alt="stokcPe linkdin" />
                 </a>
@@ -217,7 +205,6 @@ const NinthPage = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="tw-mr-5"
-
                 >
                   <img src={youtube} alt="stokcPe youtube" />
                 </a>
@@ -226,7 +213,6 @@ const NinthPage = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="tw-mr-5"
-
                 >
                   <img src={twitter} alt="stokcPe twitter" />
                 </a>
@@ -237,7 +223,6 @@ const NinthPage = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://apps.apple.com/in/app/stockpe/id1627228375"
-
                   >
                     <img
                       className="tw-cursor-pointer image tw-inline tw-w-20 "
@@ -249,7 +234,6 @@ const NinthPage = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://play.google.com/store/search?q=stockpe&c=apps"
-
                   >
                     <img
                       className="tw-cursor-pointer image tw-ml-2 tw-inline tw-w-20 "
@@ -265,7 +249,6 @@ const NinthPage = () => {
                         target="_blank"
                         rel="noreferrer"
                         href="https://apps.apple.com/in/app/stockpe/id1627228375"
-
                       >
                         <img
                           className="tw-cursor-pointer image tw-w-40 "
@@ -279,7 +262,6 @@ const NinthPage = () => {
                         target="_blank"
                         rel="noreferrer"
                         href="https://play.google.com/store/search?q=stockpe&c=apps"
-
                       >
                         <img
                           className="tw-cursor-pointer image tw-w-40 lg:-tw-ml-4 xl:-tw-ml-3 2xl:-tw-ml-9"
@@ -316,7 +298,6 @@ const NinthPage = () => {
                       href="https://stockpe.in/calculators/"
                       target="_blank"
                       className=" tw-block tw-mt-2 tw-no-underline md:tw-text-sm tw-font-secondaryFonts lg:tw-text-smMobileSize tw-text-fontColor tw-text-opacity-80"
-
                     >
                       Calculators
                     </a>
@@ -328,7 +309,6 @@ const NinthPage = () => {
                       href="https://stockpe.in/blog/"
                       target="_blank"
                       className=" tw-block tw-mt-2 tw-no-underline md:tw-text-sm tw-font-secondaryFonts lg:tw-text-smMobileSize tw-text-fontColor tw-text-opacity-80"
-
                     >
                       Blog
                     </a>
@@ -337,7 +317,6 @@ const NinthPage = () => {
                     <a
                       href="#"
                       className=" tw-block tw-mt-2 tw-no-underline md:tw-text-sm tw-font-secondaryFonts lg:tw-text-smMobileSize tw-text-fontColor tw-text-opacity-80"
-
                     >
                       Contact Us
                     </a>
@@ -349,7 +328,6 @@ const NinthPage = () => {
                       href="https://stockpe.in/creators/"
                       target="_blank"
                       className=" tw-block tw-mt-2 tw-no-underline md:tw-text-sm tw-font-secondaryFonts lg:tw-text-smMobileSize tw-text-fontColor tw-text-opacity-80"
-
                     >
                       Creators Hub
                     </a>
@@ -360,7 +338,6 @@ const NinthPage = () => {
                       target="_blank"
                       rel="noreferrer"
                       className="tw-text-primary tw-block  tw-no-underline tw-font-secondaryFonts md:tw-text-sm lg:tw-text-smMobileSize tw-mt-2"
-
                     >
                       Try the app out for free!
                     </a>
@@ -383,7 +360,6 @@ const NinthPage = () => {
                 <a
                   href="mailto:support@stockpe.in"
                   className="tw-mt-2 tw-no-underline tw-block tw-text-fontColor tw-text-smMobileSize tw-text-opacity-80"
-
                 >
                   Email Us
                 </a>

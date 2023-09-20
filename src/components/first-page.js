@@ -74,7 +74,6 @@ const FirstPage = () => {
                     href="https://stockpe.app.link/Spv92VPgUyb"
                     target="_blank"
                     rel="noreferrer"
-
                   >
                     <div className="tw-pt-5 tw-block mobile-button">
                       <button className="tw-font-secondaryFonts tw-h-12 tw-font-semibold click-arrow tw-text-smMobileSize active:tw-text-opacity-70  tw-bg-primary  tw-text-black tw-w-full  tw-px-10  tw-py-2 tw-rounded-md">
@@ -138,7 +137,6 @@ const FirstPage = () => {
                     href="https://stockpe.app.link/Spv92VPgUyb"
                     target="_blank"
                     rel="noreferrer"
-
                   >
                     <div className="tw-pt-12  animation">
                       <button className="tw-font-secondaryFonts tw-h-12 click-arrow hover:tw-text-opacity-70  tw-bg-primary md:tw-font-bold tw-text-black tw-px-8 tw-py-3  tw-rounded-md">
