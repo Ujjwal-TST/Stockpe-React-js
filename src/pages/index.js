@@ -43,7 +43,7 @@ const HomePage = () => {
   }, []);
   return (
     <>
-      <head>
+      {/* <head>
         <title>StockPe - Virtual Trading App for Stock Market Learning</title>
         <link rel="canonical" href="https://stockpe.in" />
         <meta charSet="utf-8" />
@@ -104,7 +104,7 @@ const HomePage = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-      </head>
+      </head> */}
       <div className="select-none ">
         <Navbar />
         <h1 className="tw-hidden">Virtual Trading App</h1>

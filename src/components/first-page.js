@@ -50,7 +50,7 @@ const FirstPage = () => {
                   />
 
                   <div className="tw-max-w-xs">
-                    <h1 className=" text-large tw-px-5 tw-font-semibold  tw-inline tw-font-primaryFonts">
+                    <p className=" text-large tw-px-5 tw-font-semibold  tw-inline tw-font-primaryFonts">
                       <ReactTextTransition
                         springConfig={presets.gentle}
                         className="w-25 "
@@ -58,9 +58,8 @@ const FirstPage = () => {
                         inline
                       >
                         <p
-                          className={`tw-text-primary ${
-                            texts[textIndex] === "Play" ? "tw-ml-1" : "-tw-ml-4"
-                          }`}
+                          className={`tw-text-primary ${texts[textIndex] === "Play" ? "tw-ml-1" : "-tw-ml-4"
+                            }`}
                         >
                           {texts[textIndex]}
                         </p>
@@ -69,7 +68,7 @@ const FirstPage = () => {
                         &nbsp;&nbsp;in the Stock <br /> Market with <br />{" "}
                         Confidence
                       </span>
-                    </h1>
+                    </p>
                   </div>
                   <a
                     href="https://stockpe.app.link/Spv92VPgUyb"
@@ -122,11 +121,10 @@ const FirstPage = () => {
                       inline
                     >
                       <p
-                        className={`tw-text-primary ${
-                          texts[textIndex] === "Play"
-                            ? "md:tw-ml-10 lg:tw-ml-12"
-                            : "md:tw-ml-4 lg:tw-ml:6  "
-                        }`}
+                        className={`tw-text-primary ${texts[textIndex] === "Play"
+                          ? "md:tw-ml-10 lg:tw-ml-12"
+                          : "md:tw-ml-4 lg:tw-ml:6  "
+                          }`}
                       >
                         {texts[textIndex]}
                       </p>
