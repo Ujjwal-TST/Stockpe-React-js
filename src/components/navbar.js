@@ -8,20 +8,14 @@ import close_modal from "../assets/close.svg";
 import carbon_arrow from "../assets/carbon_arrow-up.svg";
 import up_arrow from "../assets/up_Arrow.svg";
 import down_arrow from "../assets/down_arrow.svg";
-import { useParams } from "react-router-dom";
-// import { useRouter } from "next/router";
-// import a from "next/link";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [mobileModal, setMobileModal] = useState(false);
   const [About, setAbout] = useState(false);
-  // const router = usePara();
   const url = window.location.href;
   const path = url.split('/')[3]
-  // const id = useParams()
-  console.log(path);
   return (
     <>
       <header className="tw-text-fontColor tw-sticky tw-top-0  tw-z-50">
@@ -42,6 +36,7 @@ const Navbar = () => {
                 <div className="tw-ml-4 tw-flex tw-items-center tw-space-x-4">
                   <a
                     href="/"
+                    hrefLang="en-in"
                     className={`${path === ""
                       ? "tw-text-opacity-100"
                       : "tw-text-opacity-50"
@@ -53,6 +48,7 @@ const Navbar = () => {
                     href="https://stockpe.in/blog/"
                     target="_blank"
                     rel="noreferrer"
+                    hrefLang="en-in"
                     className={`${path === "https://stockpe.in/blog/"
                       ? "tw-text-opacity-100"
                       : "tw-text-opacity-50"
@@ -64,6 +60,7 @@ const Navbar = () => {
                     href="https://stockpe.in/creators/"
                     target="_blank"
                     rel="noreferrer"
+                    hrefLang="en-in"
                     className={`${path === "https://stockpe.in/creators/"
                       ? "tw-text-opacity-100"
                       : "tw-text-opacity-50"
@@ -73,6 +70,7 @@ const Navbar = () => {
                   </a>
                   <a
                     href="#contact-us"
+                    hrefLang="en-in"
                     onClick={() => {
                       setModalOpen((prev) => !prev);
                     }}
@@ -87,6 +85,7 @@ const Navbar = () => {
                     href="https://stockpe.app.link/Spv92VPgUyb"
                     target="_blank"
                     rel="noreferrer"
+                    hrefLang="en-in"
                   >
                     <div className="tw-text-center">
                       <button className="tw-text-base light  tw-font-bold tw-h-12 tw-bg-primary tw-text-black tw-px-8 tw-py-3 tw-rounded-md">
@@ -177,6 +176,7 @@ const Navbar = () => {
                         href="https://stockpe.in/blog/"
                         target="_blank"
                         rel="noreferrer"
+                        hrefLang="en-in"
                       >
                         <Row className=" tw-h-11 tw-mb-5 hamburger-border">
                           <Col
@@ -187,7 +187,7 @@ const Navbar = () => {
                             Blog
                           </Col>
                           <Col className="" xs={2} sm={3}>
-                            <a className="hover:tw-text-white  tw-px-3  tw-rounded-md tw-text-3xl  tw-font-medium">
+                            <a className="hover:tw-text-white  tw-px-3  tw-rounded-md tw-text-3xl  tw-font-medium" hrefLang="en-in">
                               <img
                                 src={carbon_arrow}
                                 alt="arrow"
@@ -214,6 +214,7 @@ const Navbar = () => {
                         href="https://stockpe.in/creators/"
                         target="_blank"
                         rel="noreferrer"
+                        hrefLang="en-in"
                       >
                         <Row className="tw-h-11 tw-mb-5 hamburger-border">
                           <Col
@@ -224,7 +225,7 @@ const Navbar = () => {
                             Creators Hub
                           </Col>
                           <Col className=" " xs={2} sm={3}>
-                            <a className="hover:tw-text-white  tw-px-3 -tw-mt-1 tw-rounded-md tw-text-3xl  tw-font-medium">
+                            <a className="hover:tw-text-white  tw-px-3 -tw-mt-1 tw-rounded-md tw-text-3xl  tw-font-medium" hrefLang="en-in">
                               <img
                                 src={carbon_arrow}
                                 alt="arrow"
@@ -260,7 +261,7 @@ const Navbar = () => {
                           Contact Us
                         </Col>
                         <Col className=" " xs={2} sm={3}>
-                          <a className="hover:tw-text-white  tw-px-3 -tw-mt-1 tw-rounded-md tw-text-3xl  tw-font-medium">
+                          <a className="hover:tw-text-white  tw-px-3 -tw-mt-1 tw-rounded-md tw-text-3xl  tw-font-medium" hrefLang="en-in">
                             <img
                               src={carbon_arrow}
                               alt="arrow"
@@ -285,6 +286,7 @@ const Navbar = () => {
                         href="https://stockpe.app.link/Spv92VPgUyb"
                         target="_blank"
                         rel="noreferrer"
+                        hrefLang="en-in"
                       >
                         <Row className="tw-h-11 hamburger-border">
                           <Col
@@ -295,7 +297,7 @@ const Navbar = () => {
                             Try it out for free!
                           </Col>
                           <Col className=" " xs={2} sm={3}>
-                            <a className="hover:tw-text-white  tw-px-3 -tw-mt-1 tw-rounded-md tw-text-3xl  tw-font-medium">
+                            <a className="hover:tw-text-white  tw-px-3 -tw-mt-1 tw-rounded-md tw-text-3xl  tw-font-medium" hrefLang="en-in">
                               <img
                                 src={carbon_arrow}
                                 alt="arrow"
@@ -345,6 +347,7 @@ const Navbar = () => {
                 <a
                   href="tel:+919910470891"
                   className=" tw-text-fontColor tw-font-normal tw-block tw-underline "
+                  hrefLang="en-in"
                 >
                   +91 9910470891
                 </a>
@@ -356,12 +359,14 @@ const Navbar = () => {
                 <a
                   href="mailto:support@stockpe.in"
                   className="tw-text-fontColor tw-font-normal tw-underline tw-block "
+                  hrefLang="en-in"
                 >
                   support@stockpe.in
                 </a>
                 <a
                   href="mailto:founders@stockpe.in"
                   className="tw-text-fontColor tw-font-normal tw-underline tw-block "
+                  hrefLang="en-in"
                 >
                   founders@stockpe.in
                 </a>
@@ -431,6 +436,7 @@ const Navbar = () => {
                 <a
                   href="tel:+919910470891"
                   className="tw-py-1 tw-block tw-underline tw-text-smMobileSize tw-cursor-pointer  tw-text-fontColor "
+                  hrefLang="en-in"
                 >
                   +91 9910470891
                 </a>
@@ -442,12 +448,14 @@ const Navbar = () => {
                 <a
                   href="mailto:support@stockpe.in"
                   className="tw-py-1 tw-text-sm tw-block tw-text-smMobileSize tw-underline tw-cursor-pointer tw-text-fontColor "
+                  hrefLang="en-in"
                 >
                   support@stockpe.in
                 </a>
                 <a
                   href="mailto:founders@stockpe.in"
                   className="tw-text-sm tw-block tw-text-smMobileSize tw-underline tw-cursor-pointer tw-text-fontColor "
+                  hrefLang="en-in"
                 >
                   founders@stockpe.in
                 </a>
