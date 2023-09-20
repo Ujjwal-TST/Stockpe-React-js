@@ -13,98 +13,14 @@ import Navbar from "../components/navbar";
 // import logo from "../assets//LOGO.svg";
 
 const HomePage = () => {
-  const schema = {
-    "@context": "https://schema.org/",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Bolg",
-        item: "https://stockpe.in/blog/",
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "Calculators",
-        item: "https://stockpe.in/calculators/",
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: "Try For Free",
-        item: "https://stockpe.app.link/Spv92VPgUyb",
-      },
-    ],
-  };
+
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
   return (
     <>
-      {/* <head>
-        <title>StockPe - Virtual Trading App for Stock Market Learning</title>
-        <link rel="canonical" href="https://stockpe.in" />
-        <meta charSet="utf-8" />
-        <meta
-          name="description"
-          content="StockPe is India's Best Virtual Stock Market Trading App & Learning Platform. One Stop Solution to Learn Finance & Investing for Free"
-        ></meta>
 
-        <meta
-          name="keywords"
-          content="virtual trading, virtual trading app, virtual trading platform, best virtual trading app, virtual trading platform india, virtual trading app india, virtual stock trading, best virtual trading app india, virtual trading india, virtual money trading, virtual money trading app, virtual stock trading app india, virtual trade app, virtual trading app for indian market, virtual stock trading app, best virtual trading platform in india, virtual trading platform in india, virtual trading game, best virtual stock trading platform, stock market game, stock market game app, stock market game for students, stock market simulator game, best stock market game, how the stock market works game, learn the stock market game, stock market practice game, virtual stock market game app, real time stock market game, stock market game for college students, virtual trading game indian stock market, free stock market games for beginners, online stock market game, best free stock market game, best online stock market game, free online stock market game for students, online stock market game india, virtual game stock market, online stock market game for students, stock market simulation game india, stock market mock game, best stock market game app, learn stock market, learn stock market trading, how to learn stock market trading in india, learn stock market india, learn how to invest in stock market, where to learn stock market, how to learn about stock market in india, stock market learning app, best app to learn stock market, how to start learning stock market, learn stock market india online free, learn to invest in stock market india, learn stock market basics, learning stock market for beginners "
-        />
-        <meta name="author" content="StockPe" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta
-          property="og:title"
-          content="StockPe - Virtual Trading App for Stock Market Learning"
-        />
-        <meta
-          property="og:description"
-          content="StockPe is India's Best Virtual Stock Market Trading App & Learning Platform. One Stop Solution to Learn Finance & Investing for Free"
-        />
-        <meta
-          property="og:site_name"
-          content="StockPe - Virtual Trading App for Stock Market Learning"
-        />
-        <meta property="og:url" content="https://stockpe.in/" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://stockpe.in/assets/img/logo.png"
-        />
-
-        <meta name="twitter:card" content="app" />
-        <meta
-          name="twitter:site"
-          content="@ StockPe - Virtual Trading App for Stock Market Learning"
-        />
-        <meta
-          name="twitter:description"
-          content="StockPe is India's Best Virtual Stock Market Trading App & Learning Platform. One Stop Solution to Learn Finance & Investing for Free"
-        />
-        <meta name="twitter:app:name:iphone" content="StockPe" />
-        <meta name="twitter:app:id:iphone" content="1627228375" />
-        <meta name="twitter:app:name:ipad" content="StockPe" />
-        <meta name="twitter:app:id:ipad" content="1627228375" />
-        <meta
-          name="twitter:app:name:googleplay"
-          content="StockPe: Share Market"
-        />
-        <meta name="twitter:app:id:googleplay" content="com.stockpemarket" />
-        <meta name="twitter:app:country" content="IN" />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      </head> */}
       <div className="select-none ">
         <Navbar />
         <h1 className="tw-hidden">Virtual Trading App</h1>
