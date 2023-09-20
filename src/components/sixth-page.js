@@ -224,7 +224,7 @@ const SixthPage = () => {
                       target="_blank"
                       rel="noreferrer"
                       href="https://apps.apple.com/in/app/stockpe/id1627228375"
-                      hrefLang="en-in"
+
                     >
                       <img
                         className="tw-cursor-pointer image tw-inline tw-w-20 "
@@ -236,7 +236,7 @@ const SixthPage = () => {
                       target="_blank"
                       rel="noreferrer"
                       href="https://play.google.com/store/search?q=stockpe&c=apps"
-                      hrefLang="en-in"
+
                     >
                       <img
                         className="tw-cursor-pointer image tw-ml-2 tw-inline tw-w-20 "
@@ -252,7 +252,7 @@ const SixthPage = () => {
                           target="_blank"
                           rel="noreferrer"
                           href="https://apps.apple.com/in/app/stockpe/id1627228375"
-                          hrefLang="en-in"
+
                         >
                           <img
                             className="tw-cursor-pointer image tw-w-40 "
@@ -266,7 +266,7 @@ const SixthPage = () => {
                           target="_blank"
                           rel="noreferrer"
                           href="https://play.google.com/store/search?q=stockpe&c=apps"
-                          hrefLang="en-in"
+
                         >
                           <img
                             className="tw-cursor-pointer image tw-w-40 lg:-tw-ml-4 xl:-tw-ml-3 2xl:-tw-ml-9"

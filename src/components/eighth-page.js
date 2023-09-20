@@ -48,7 +48,7 @@ const EighthPage = () => {
           href="https://stockpe.app.link/1MXBYa7qvBb"
           target="_blank"
           rel="noreferrer"
-          hrefLang="en-in"
+
         >
           <div className="tw-text-center tw-block  tw-py-8 tw-pb-10">
             <button className="tw-text-smMobileSize tw-h-12 tw-font-semibold  tw-w-full tw-font-secondaryFonts click-arrow active:tw-text-opacity-70 tw-bg-primary tw-text-black tw-px-10 tw-py-2 tw-rounded-md">
@@ -75,7 +75,7 @@ const EighthPage = () => {
           href="https://stockpe.app.link/1MXBYa7qvBb"
           target="_blank"
           rel="noreferrer"
-          hrefLang="en-in"
+
         >
           <button className="button-on-image lg:tw-w-50  lg:tw-h-12 tw-bg-primaryBg   tw-text-primary   tw-rounded-md">
             <p className="lg:tw-text-base md:tw-text-xs md:tw-py-2 tw-font-secondaryFonts md:tw-px-5 tw-font-bold lg:tw-px-4 lg:tw-py-3 ">

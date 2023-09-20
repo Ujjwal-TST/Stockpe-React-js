@@ -126,7 +126,7 @@ const ThirdPage = () => {
             href="https://stockpe.app.link/Spv92VPgUyb"
             target="_blank"
             rel="noreferrer"
-            hrefLang="en-in"
+
           >
             <div className="tw-text-center tw-block tw-py-10  ">
               <button className="tw-text-smMobileSize click-arrow tw-h-12 tw-font-semibold active:tw-text-opacity-70 tw-w-full tw-font-secondaryFonts tw-bg-primary  tw-text-black tw-px-10 tw-py-2 tw-rounded-md">
@@ -162,7 +162,7 @@ const ThirdPage = () => {
               href="https://stockpe.app.link/Spv92VPgUyb"
               target="_blank"
               rel="noreferrer"
-              hrefLang="en-in"
+
             >
               <div className="tw-mt-5 md:tw-w-3/4">
                 <button className="tw-font-secondaryFonts tw-h-12 click-arrow hover:tw-text-opacity-70  tw-bg-primary md:tw-font-bold tw-text-black tw-px-8 tw-py-3  tw-rounded-md">
